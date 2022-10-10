@@ -1,25 +1,29 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from './logo.svg';
+import Navbar from './components/layout/Navbar';
+import Landing from './components/layout/Landing';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
 import './App.css';
+import Profile from './components/auth/Profile';
+import Profiles from './components/layout/Profiles';
+// import { withAuthenticator } from '@aws-amplify/ui-react';
 
-function App() {
+function App({signIn, user}) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Navbar />
+    <Routes>
+    <Route exact path='/Landing' element={ <Landing /> } />
+
+    <Route exact path='/Register' element={ <Register /> } />
+    <Route exact path='/Profile' element={ <Profile /> } />
+    <Route exact path='/Profiles' element={ <Profiles /> } />
+    <Route exact path='/Login' element={ <Login /> } />
+    </Routes>
+  </Router>
   );
 }
 
-export default App;
+export default (App);

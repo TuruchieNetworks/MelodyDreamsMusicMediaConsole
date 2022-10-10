@@ -1,0 +1,21 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-melodydreamsmediapla-staging-01857-authRole",
+      "UnauthRoleArn": "arn:aws:iam::825899528470:role/amplify-melodydreamsmediapla-staging-01857-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::825899528470:role/amplify-melodydreamsmediapla-staging-01857-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-melodydreamsmediapla-staging-01857-deployment",
+      "UnauthRoleName": "amplify-melodydreamsmediapla-staging-01857-unauthRole",
+      "StackName": "amplify-melodydreamsmediapla-staging-01857",
+      "StackId": "arn:aws:cloudformation:us-east-1:825899528470:stack/amplify-melodydreamsmediapla-staging-01857/2202ce40-4831-11ed-a42c-0aeaaa90c8cb",
+      "AmplifyAppId": "d3teowlleggzmg"
+    },
+    "categories": {
+      "auth": {
+        "melodydreamsconsolesecurity": {},
+        "true": {}
+      }
+    }
+  }
+}
