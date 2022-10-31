@@ -92,7 +92,7 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 1rem;
-  margin-top: 5.4rem;
+  margin-top: 5.2rem;
   /* margin-bottom: 3rem;.3 */
   background: url('./img/landing\ img.jpg') no-repeat center center/cover;
 }
@@ -505,6 +505,7 @@ button {
     'exp edu'
     'github github';
   grid-gap: 1rem;
+  border-radius: 5%;
 }
 
 .profile-top {
@@ -514,6 +515,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  /* border-radius: 3%; */
 }
 
 .profile-top img {
@@ -651,7 +653,7 @@ button {
   .navbar {
     display: block;
     text-align: center;
-    height: 20%;
+    height: 18.5%;
   }
 
   .navbar ul {
@@ -727,6 +729,7 @@ button {
       'exp'
       'edu'
       'github';
+      
   }
 
   .profile-about .skills {
