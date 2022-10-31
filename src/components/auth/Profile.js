@@ -52,15 +52,15 @@ const Profile = () => {
           />
           ))
         }
-          <input className="round-img my-1"
+          {/* <input className="round-img my-1"
           type="file"
           onChange={onChange}
-        />
-          {/* <img
+        /> */}
+          <img
             className="round-img my-1"
-            src={image} key={image}
+            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
             alt=""
-          /> */}
+          />
           <h1 className="large">John Doe</h1>
           <p className="lead">Developer at Microsoft</p>
           <p>Seattle, WA</p>
