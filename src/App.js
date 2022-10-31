@@ -8,7 +8,7 @@ import Register from './components/auth/Register';
 import './App.css';
 import Profile from './components/auth/Profile';
 import Profiles from './components/layout/Profiles';
-// import { withAuthenticator } from '@aws-amplify/ui-react';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 function App({signIn, user}) {
   return (
@@ -26,4 +26,4 @@ function App({signIn, user}) {
   );
 }
 
-export default (App);
+export default withAuthenticator (App);

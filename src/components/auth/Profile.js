@@ -52,9 +52,13 @@ const Profile = () => {
           />
           ))
         }
+          <input className="round-img my-1"
+          type="file"
+          onChange={onChange}
+        />
           <img
             className="round-img my-1"
-            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+            src={image} key={image}
             alt=""
           />
           <h1 className="large">John Doe</h1>
