@@ -26,4 +26,4 @@ function App({signIn, user}) {
   );
 }
 
-export default (App);
+export default withAuthenticator (App);
