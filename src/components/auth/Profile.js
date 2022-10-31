@@ -56,11 +56,11 @@ const Profile = () => {
           type="file"
           onChange={onChange}
         />
-          <img
+          {/* <img
             className="round-img my-1"
             src={image} key={image}
             alt=""
-          />
+          /> */}
           <h1 className="large">John Doe</h1>
           <p className="lead">Developer at Microsoft</p>
           <p>Seattle, WA</p>
